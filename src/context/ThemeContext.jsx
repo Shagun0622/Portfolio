@@ -14,14 +14,14 @@ const getInitialTheme = () => {
 export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState(getInitialTheme);
 
-  // Apply theme to <html>
+  
   useEffect(() => {
     const root = document.documentElement;
     root.classList.toggle("dark", theme === "dark");
     localStorage.setItem("theme", theme);
   }, [theme]);
 
-  // Listen to system theme changes (only if user hasn’t manually chosen)
+ 
   useEffect(() => {
     const media = window.matchMedia("(prefers-color-scheme: dark)");
 
