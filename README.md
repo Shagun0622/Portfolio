@@ -150,7 +150,7 @@ The portfolio is fully responsive and optimized for:
 ## 📧 Contact
 
 **Shagun Kumari**
-- Email: shahajumhkumari@gmail.com
+- Email: kumarishagun330@gmail.com
 - LinkedIn: [https://www.linkedin.com/in/shagun-kumari-21066b318](#)
 - GitHub: [https://github.com/Shagun0622](#)
 
