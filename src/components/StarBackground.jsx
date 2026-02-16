@@ -25,10 +25,10 @@ export const StarBackground = () => {
     const width = window.innerWidth;
     const height = window.innerHeight;
     const newStars = [];
+    const smallCount  = Math.min((width * height) / 6000, 120);
+const mediumCount = Math.min((width * height) / 12000, 60);
+const bigCount    = Math.min((width * height) / 30000, 25);
 
-    const smallCount = Math.min((width * height) / 3000, 300);
-    const mediumCount = Math.min((width * height) / 8000, 120);
-    const bigCount = Math.min((width * height) / 20000, 60);
 
     // ⭐ Small stars
     for (let i = 0; i < smallCount; i++) {
